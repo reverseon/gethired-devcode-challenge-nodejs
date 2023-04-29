@@ -1,2 +1,2 @@
-# gethired-devcode-challenge-nodejs
-A submission for backend API Devcode Challenge from Gethired using NodeJS and MySQL.
+# Backend NodeJS Submission in Gethired Devcode Challenge 
+This is my submission for Backend NodeJS in Gethired Devcode Challenge. This project is a simple REST API for a todo application. This project is built using NodeJS (Typescript), MySQL, and Fastify.

@@ -1,0 +1,25 @@
+{
+  "name": "skyshi-gethired",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn --transpile-only --exit-child src/app.ts",
+    "prod": "tsc && node dist/doMigration.js && node dist/app.js",
+    "migrate": "tsc && node dist/doMigration.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mysql": "^2.15.21",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.17.0",
+    "mysql2": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  }
+}
